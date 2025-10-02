@@ -1,4 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
+import Resume from "../assets/Resumé.pdf";
 
 export const AboutSection = () => {
   return (
@@ -16,9 +17,9 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              With over 1 year of experience in web development, I specialize in
+              creating responsive, accessible, and performant web applications
+              using modern technologies.
             </p>
 
             <p className="text-muted-foreground">
@@ -35,7 +36,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href={Resume}
+                download="Assil_Habib_Resume"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
