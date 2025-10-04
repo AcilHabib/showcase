@@ -1,11 +1,18 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import badaroCapture from "../assets/projects/BadaroProjectPNG.png";
+import shadowCapture from "../assets/projects/ShadowCapture.png";
+import meracoCapture from "../assets/projects/MeracoCapture.png";
+import simonCapture from "../assets/projects/SimonCapture.png";
+import piassaAdmin from "../assets/projects/PiassaAdmin.png";
+import piassaApp from "../assets/projects/piassa.png";
+import deleveryApp from "../assets/projects/delevery.png";
 
 const projects = [
   {
     id: 1,
     title: "Badaro",
     description: "A beautiful, high tech , responsive ecommerce website.",
-    image: "/projects/BadaroProjectPNG.png",
+    image: badaroCapture,
     tags: [
       "React",
       "TailwindCSS",
@@ -22,7 +29,7 @@ const projects = [
     title: "Shadow ns ",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/ShadowCapture.png",
+    image: shadowCapture,
     tags: ["TypeScript", "TailWind css", "Next.js ", "Express js", "Figma"],
     demoUrl: "https://shadow-lac-six.vercel.app/",
     githubUrl: "#",
@@ -32,7 +39,7 @@ const projects = [
     title: "Meraco ns",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/MeracoCapture.PNG",
+    image: meracoCapture,
     tags: ["TypeScript", "TailWind css", "Next.js ", "Express js", "Figma"],
     demoUrl: "https://meraco.vercel.app/",
     githubUrl: "#",
@@ -41,7 +48,7 @@ const projects = [
     id: 4,
     title: "Simon Web",
     description: "A beautiful, high tech , responsive ecommerce website.",
-    image: "/projects/SimonCapture.PNG",
+    image: simonCapture,
     tags: [
       "React",
       "TailwindCSS",
@@ -58,7 +65,7 @@ const projects = [
     title: "Piassa Admin",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/PiassaAdmin.png",
+    image: piassaAdmin,
     tags: ["TypeScript", "TailWind css", "Next.js ", "Express js", "Figma"],
     demoUrl: "#",
     githubUrl: "#",
@@ -69,7 +76,7 @@ const projects = [
     title: "Piassa App",
     description:
       "A mobile marketplace app for buying and selling car parts, offering secure user accounts, easy listings, and smooth in-app transactions.",
-    image: "/projects/piassa.png",
+    image: piassaApp,
     tags: ["React native", "Node.js", "Next js"],
     demoUrl:
       "https://play.google.com/store/apps/details?id=com.zackiber.piassamobile&hl=en",
@@ -80,7 +87,7 @@ const projects = [
     title: "Hungry Hero",
     description:
       "A mobile delivery app that connects users with fast, reliable couriers for food, packages, and essentials—anytime, anywhere.",
-    image: "/projects/delevery.png",
+    image: deleveryApp,
     tags: ["Flutter", "Firebase", "Firestore"],
     demoUrl: "#",
     githubUrl: "#",
